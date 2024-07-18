@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    
+   
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #f6f4f4;
+    overflow: hidden;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #fcfbfb;
+    color: rgb(9, 0, 0);
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #300707;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(254, 228, 228, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(244, 238, 238);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px; 
+}
+.login-btn, .register-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background-color: darkblue;
+}
+
+
+.logo{
+    width: 150px;
+    height: auto;
+
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <img src="pedestal logo.png" alt="logo" class="logo">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="dropdown">
+                <label for="categories">Categories</label>
+                <div class="dropdown-content">
+                    <a href="#">Category 1</a>
+                    <a href="#">Category 2</a>
+                    <a href="#">Category 3</a>
+                </div>
+               
+            </div>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="register-btn">Register</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ?promo -->
+    <div class="scroll" style="--t:20s" width="1800px">
+        <link rel="stylesheet" href="promostyles.css">
+        <div>
+            <span>data science</span>
+            <span>Machine Learning</span> 
+            <span>Full Stack development</span>
+            <span>Cyber security</span>
+            <span>Artificial Intelligence</span>
+        </div>    
+        <div>
+            <span>Digital Margeting</span>
+            <span>Data Analysis</span> 
+            <span>MERN Stack development</span>
+            <span>Python</span>
+            <span>Global buisness Program</span>
+        </div>  
+        <div>
+            <span>Digital Margeting</span>
+            <span>Data Analysis</span> 
+            <span>MERN Stack development</span>
+            <span>Python</span>
+            <span>Global buisness Program</span>
+        </div>      
+    </div>
+    <div class="scroll" style="--t:20s">
+        <div>
+            <span>Digital Margeting</span>
+            <span>Data Analysis</span> 
+            <span>MERN Stack development</span>
+            <span>Python</span>
+            <span>Global buisness Program</span>
+        </div>
+        <div>
+            <span>data science</span>
+            <span>Machine Learning</span> 
+            <span>Full Stack development</span>
+            <span>Cyber security</span>
+            <span>Artificial Intelligence</span>
+        </div>
+        <div>
+            <span>data science</span>
+            <span>Machine Learning</span> 
+            <span>Full Stack development</span>
+            <span>Cyber security</span>
+            <span>Artificial Intelligence</span>
+        </div>
+        
+        
+    </div>
+    <div class="scroll imgbx" style="--t:15s">
+        <div>
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+            <img src="img5.jpg">
+            <img src="img4.jpg"> 
+            <img src="img3.jpg">
+            <img src="img2.jpg">
+            <!-- <img src="img6.jpg"> -->
+        </div>
+        <div>
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+            <img src="img5.jpg">
+            <img src="img4.jpg"> 
+            <img src="img3.jpg">
+            <img src="img2.jpg">
+            <!-- <img src="img6.jpg"> -->
+        </div>
+        <div>
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+            <img src="img5.jpg">
+            <img src="img4.jpg"> 
+            <img src="img3.jpg">
+            <img src="img2.jpg">
+            <!-- <img src="img6.jpg"> -->
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ?searchbar -->
+    <link rel="stylesheet" href="allcstyles.css">
+    <div class="container">
+        <video class="video-background" autoplay loop muted>
+          <source src="High tech digital world background 4k.mp4" type="video/mp4">
+        </video>
+        <h2>All Courses</h2>
+        <div class="select-category">
+          <label for="category">Select Category:</label>
+          <select id="category">
+              <option value="select-category">Select Category</option>
+              <option value="digital-marketing">Digital Marketing</option>
+              <option value="coding">Coding</option>
+              <option value="ai">Artificial Intelligence</option>
+              <option value="business-development">Business Development</option>
+              <option value="cloud-computing">Cloud Computing</option>
+              <option value="cyber-security">Cyber Security</option>
+              <option value="data-science">Data Science</option>
+              <option value="image-processing">Image Processing</option>
+              <option value="fintech">Fintech</option>
+              <option value="machine-learning">Machine Learning</option>
+              <option value="python">Python</option>
+          </select>
+        </div>
+      
+        <div class="search-course">
+         
+          <button type="button">Search</button>
+          <button type="button" class="reset-button">Reset</button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- ?flip -->
+      <link rel="stylesheet" href="flipstyle.css">
+      <div class="product-container">
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="mern.png" alt="Product 1" width="500px">
+                    <h2>Certified MERN Stack Developer</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online and Offline Mode Training</h2>
+                    <p>What you'll Learn: </p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Fundamentals of Full-<br>
+                        Stack Development</li>
+                    <li>JavaScript Mastery</li>
+                    <li>Backend Development with 
+                        <br>Node.js and Express.js</li>
+                    <li>Database Management <br> MongoDB</li>
+                    <li> Development with React
+                    </li>
+                </ol>
+                    <button class="Lbutton">Learn More</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="fullstack.png" alt="fullstack" width="500">
+                    <h2>Certified Full Stack Development</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online And Offline Mode Training</h2>
+                    <p> What you'll Learn:</p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Understanding of Front-end Development</li>
+                    <li>Understanding of Back-end Development</li>
+                    <li>RESTful Api Development and Integration</li>
+                    <li>Database- MySQL</li>
+                    <li> Fundamentals of Web Designing and UI
+                    </li>
+                    </ol>
+                <button class="Lbutton">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="fundamentalsofdataanalysis.png" alt="Product 3" width="500px">
+                    <h2>Fundamentals of Data Analysis(Basic and Advance)</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online And Offline Mode Training</h2>
+                    <p>What you"ll Learn</p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Introduction to Data Analysis</li>
+                    <li>Tableau Usage</li>
+                    <li>Data Visualization Principles 
+                        </li>
+                    <li>SQL Fundamentals</li>
+                    <li>Descriptive Statistics
+                    </li>
+                    </ol>
+                    <button class="Lbutton">Learn More</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="ml.png" alt="Product 4" width="500px">
+                    <h2>Introduction to Data Science(ML and DL)</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online And Offline Mode Training</h2>
+                    <p>What you"ll Learn</p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Python Programming for Data Science</li>
+                    <li>Data Acquisition and Cleaning</li>
+                    <li>Exploratory Data Analysis (EDA)</li>
+                    <li>Supervised Learning Algorithms</li>
+                </ol>
+                    <button class="Lbutton">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="datascience.png" alt="Product 5"  width="500px">
+                    <h2>Certified Data Science and Analyst Program</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online And Offline Mode Training</h2>
+                    <p>What you"ll Learn</p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Foundations of Data Science</li>
+                    <li>Data Manipulation and Cleaning</li>
+                    <li>Statistical Analysis with Python</li>
+                    <li>Statistical Analysis with Python</li>
+                    <li>Capstone Project </li>
+                </ol>
+                    <button class="Lbutton" color="blue">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="card">
+                <div class="front">
+                    <img src="ai.png" alt="Product 6"  width="500px">
+                    <h2>Certified Artificial Intelligence Developer</h2>
+                    <p></p>
+                </div>
+                <div class="back">
+                    <h2>Online And Offline Mode Training</h2>
+                    <p>What you"ll Learn</p>
+                    <ol class="aligned-list", style="float:left;">
+                    <li>Python Fundamentals and Programming</li>
+                    <li>Artificial Intelligence Fundamentals</li>
+                    <li>Machine Learning Fundamentals</li>
+                    <li>Deep Learning and Neural Networks</li>
+                    <li>Natural Language Processing (NLP)</li>
+                </ol>
+                    
+                    <button class="Lbutton">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ?whatsapp logo -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Include both CSS files -->
+        <link rel="stylesheet" href="whatstyle1.css">
+        <div class="whatsapp-btn-container">
+            <a class="whatsapp-btn" href="https://wa.me/91999999999"><i class="fab fa-whatsapp"></i></a>
+            <span>Contact Us</span>
+        </div>
+    
+        <div>
+            <a href="tel:+916388483226"><i class="fa fa-phone"></i> Call Us</a>
+        </div>
+      
+</body>
+</html>

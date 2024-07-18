@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.stars{
+    color: yellow;
+    margin-bottom: 20px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.product-card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.product-card:hover .card {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    width: 87%;
+    height: 87%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.front {
+    background-color: #fff;
+}
+
+.back {
+    background: linear-gradient(#fff,#a5e1ec);
+    transform: rotateY(180deg);
+    color: white;
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Arial;
+  }
+
+/* button */
+
+.Lbutton {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Lbutton:hover {
+    background-color: #000;
+    color: #fff;
+}

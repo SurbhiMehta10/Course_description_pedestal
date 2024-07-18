@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(243, 253, 248, 0.1);
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  h2 {
+    margin-top: 50px;
+    font-weight: lighter;
+    color: rgb(55, 108, 193);
+  }
+  
+  .select-category {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .select-category label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fdf8f8;
+  }
+  
+  .select-category select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .search-course {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .search-course input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 250px;
+  }
+  
+  .search-course button {
+    padding: 8px 16px;
+    background-color: #4c4caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-course button:hover {
+    background-color: #45a049;
+  }
+  
+  .reset-button {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .reset-button:hover {
+    background-color: #d32f2f;
+  }
